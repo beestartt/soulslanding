@@ -1623,7 +1623,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .download_content .item ul li a {
-  color: #452255;
+  color: yellow;
 }
 
 .download_content .owl-controls {
@@ -7832,7 +7832,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .footer_widgets_area {
   background: #2e3c43;
-  padding: 75px 0px;
+  padding-bottom: 10px
 }
 
 .f_widget_title {
@@ -8034,7 +8034,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .logoimg {
-    height: 5% !important;
+    height: 50% !important;
     width: 15% !important;
     background: #334249 !important;
 

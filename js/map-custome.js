@@ -343,15 +343,15 @@ function initMap() {
         
     // Multiple markers location, latitude, and longitude
     var markers = [
-        ['Port Newark, Calcutta Street, Newark, NJ, United States', -19.8724627,-43.9670945],
-        
+        ['Port Newark, Calcutta Street, Newark, NJ, United States', -19.8157,-43.9542],
+
     ];
                         
     // Info window content
     var infoWindowContent = [
         ['<div class="media map_profile">' +
-        '<div class="media-left"><img src="./img/map-persion.png" alt=""></div>'+
-         '<div class="media-body"><h3>Sandi Williams</h3><h4>21 years old</h4><h5>From Paris</h5><h6>Distance 16 km</h6></div>'+
+        '<div class="media-left"><img src="./img/rsz_souls.png" alt=""></div>'+
+         '<div class="media-body"><h3>Aplicativo Souls</h3></div>'+
         '</div>'],
         
         ['<div class="media map_profile">' +
@@ -428,7 +428,7 @@ function initMap() {
 
     // Set zoom level
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-        this.setZoom(16);
+        this.setZoom(12);
         google.maps.event.removeListener(boundsListener);
     });
     

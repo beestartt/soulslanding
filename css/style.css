@@ -1437,7 +1437,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Welcome area css
 ============================================================================================ */
 .welcome_area {
-  padding: 130px 0px 75px 0px;
+  padding: 90px 0px 75px 0px;
 }
 
 .welcome_area .welcome_title {
@@ -8030,15 +8030,67 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .logoimg {
     height: 50% !important;
     width: 15% !important;
-    background: #334249 !important;
+}
 
+.header_logo {
+    height: 50% !important;
+    width: 15% !important;
 }
 
 .footer{
     background: #333 !important;
-
 }
 
+.header_area {
+  background: url(../img/header_hearts.png) no-repeat scroll center center;
+  min-height: spx;
+  position: relative;
+  background-size: cover;
+  z-index: 3;
+}
+
+.header_area:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.header_area .banner_content {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  min-height: 311px;
+}
+
+.header_title{
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px #A34453;
+}
+
+.row_text{
+  margin: 20px
+}
+
+.header_download{
+  height: 22% !important;
+  width: 22% !important;
+}
+
+.promotion_icon{
+  font-size: 38px;
+  color: #FFFFFF !important;
+  margin-bottom: 15px;
+}
+
+.text-no-shadow{
+  text-shadow: 0.5px 0px #FFFFFF;
+}
 /* End Footer area css
 ============================================================================================ */
 /*---------------------------------------------------- */
